@@ -6,11 +6,12 @@
 [![Google Gemini API](https://img.shields.io/badge/AI-Gemini%20API-4285F4.svg?logo=google-gemini)](https://ai.google.dev/)
 [![ezdxf](https://img.shields.io/badge/CAD-ezdxf-008080.svg)](https://ezdxf.readthedocs.io/)
 
-**TacitBridge-DXF**는 대한민국 제조 기술유산 보존 프로젝트의 일환으로 개발된 **암묵지 내장형 2D DXF 도면 편집기 및 뷰어**입니다. 
+**TacitBridge-DXF**는 **암묵지 내장형 2D DXF 도면 편집기 및 뷰어**입니다. 
+
+> [!WARNING]
+> 본 프로젝트는 **개인용으로 재미삼아 만들어 본 연구 및 데모용 프로젝트**입니다. 완성된 형태가 아닌 **개발 진행 중(Work in Progress)인 상태**이므로, 실제 실무나 상용 환경에 그대로 사용하지 마시고 **오직 참고용으로만 활용**하시기 바랍니다. 또한, 설계 및 개발 과정에서 **AI(Generative AI)를 적극적으로 활용**하여 구현하였습니다.
 
 현장 숙련 기술인들의 직관과 노하우(구어체 의견)를 최신 **Google Gemini AI**를 통해 정형화된 JSON 형태의 설계 제약조건 규칙으로 변환하고, 이를 2D CAD 도면(DXF) 내의 특정 개체(Entity)에 **Extended Data (XData)** 형식으로 영구 주입 및 보존할 수 있도록 지원합니다.
-
-이를 통해 도면 파일 하나만으로도 설계 형상 정보와 숙련공의 암묵지 노하우를 통합적으로 관리할 수 있습니다.
 
 ---
 
@@ -167,4 +168,27 @@ pip install -r requirements.txt
 ---
 
 ## 📄 라이선스
-This project is licensed under the MIT License.
+
+본 프로젝트는 **MIT 라이선스(MIT License)** 하에 배포됩니다.
+
+```text
+Copyright (c) 2026 hwangsk83
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
